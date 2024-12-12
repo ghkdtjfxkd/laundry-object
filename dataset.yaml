@@ -1,0 +1,4 @@
+train: small_dataset/images/train
+val: small_dataset/images/train  # 여기서는 학습 데이터를 검증에도 재사용
+nc: 10  # 클래스 수 (Fashion MNIST 클래스 수)
+names: ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
